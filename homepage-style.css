@@ -1,0 +1,253 @@
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('/ibm-plex-mono/fonts/complete/otf/IBMPlexMono-Medium.otf') format('opentype');
+  font-weight: normal;
+  /* font-style: normal; */
+}
+
+@font-face {
+  font-family: 'Metal Mania';
+  src: url('/CHASER.otf') format('opentype');
+  font-weight: normal;
+  /* font-style: normal; */
+}
+
+@font-face {
+  font-family: 'ActUp';
+  src: url('/MotherNatureisaLesbian-Regular.otf') format('opentype');
+  font-weight: normal;
+  /* font-style: normal; */
+}
+
+html{
+  background-color: black;
+  cursor: url('nat302.cur'), auto;
+}
+
+p :hover, li :hover,.page-header :hover, td :hover{
+  /* font-style: italic !important; */
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+  text-shadow: 10px 10px 10px red, -3px -3px 10px blue !important;
+}
+/* li :hover{
+  font-style: italic;
+} */
+body {
+    font-family: IBM Plex Mono, Arial, sans-serif;
+    /* background-color: #8B0A0A; */
+    min-height:95vh;
+    background-image: url("blue-hands.webp");
+    background-repeat: no-repeat;
+    /* background-position: fixed; */
+    background-position: center;
+    background-size: cover;
+    text-shadow: 1px 1px 20px rgb(179, 175, 152);
+
+}
+
+.bullshit{
+  display:none;
+}
+
+.metal{
+  font-family: Metal Mania, Arial, sans-serif;
+  font-weight: 2px;
+  color: rgb(197, 194, 175);
+}
+
+/* .navbar {
+  margin: 0 0;
+  top:0;
+  color: white;
+  text-align: center;
+  position: fixed;
+  width:100%;
+  left:10%;
+} */
+
+
+ a{
+   color: rgb(255, 255, 255);
+ }
+
+.page-header{
+  z-index: 100;
+}
+h1 {
+    font-size: 800%;
+    color:white;
+    text-align: center;
+    text-shadow: 2px 2px white;
+    text-shadow: 1px 1px 200px rgb(179, 175, 152);
+
+}
+
+
+footer{
+  text-align: center;
+  color:white;
+  margin-top: 100px;
+}
+
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  margin-right: 20px;
+  align-items: center;
+  text-shadow: 1px 1px 20px rgb(179, 175, 152);
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+#artists-list{
+  font-size: 170%;
+}
+#artists-list li{
+  list-style: none;
+  margin-left: -45px;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+/* font import */
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+
+/* spacing */
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  color:white;
+}
+
+thead th {
+  line-height: 1.5;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+/* typography */
+html {
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
+
+thead th,
+tfoot th {
+  font-family: "Rock Salt", cursive;
+}
+
+th {
+  letter-spacing: 2px;
+  border: 1px solid white;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+/* graphics */
+thead,
+tfoot {
+  background: url(https://mdn.github.io/learning-area/css/styling-boxes/styling-tables/leopardskin.jpg);
+  color: white;
+}
+
+thead th,
+tfoot th,
+tfoot td {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.5)
+  );
+  text-shadow: 1px 1px 1px black;
+  border: 1px solid white;
+}
+
+
+
+/* caption */
+caption {
+  font-family: "Rock Salt", cursive;
+  padding: 20px;
+  /* font-style: italic; */
+  caption-side: bottom;
+  color: #666;
+  text-align: right;
+  letter-spacing: 1px;
+}
+
+
+@media (max-width: 768px) {
+  h1{
+    padding-top: 20%;
+    font-size: 500%;
+  }
+  nav ul {
+    flex-wrap: wrap;
+  }
+  nav li {
+    margin-bottom: 10px;
+  }
+  .navbar{
+    left:0px;
+    background-color: black;
+  }
+  body{
+    background-size: auto;
+  }
+  center p{
+    font-size: 100% !important;
+  }
+}
+@media (max-width: 490px) {
+.page-header{
+  margin-top:100px;
+}
+
+}
